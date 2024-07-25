@@ -16,5 +16,7 @@ public class Main {
         Point point = new Point(0,0);
 
         System.out.println("distance()= " + point.distance());
+        Player player = new Player("Şevval", 100, Weapon.SWORD);
+        System.out.println(player.healthRemaining());
     }
 }
