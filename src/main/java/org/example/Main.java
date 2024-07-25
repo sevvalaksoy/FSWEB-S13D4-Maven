@@ -18,5 +18,7 @@ public class Main {
         System.out.println("distance()= " + point.distance());
         Player player = new Player("Şevval", 100, Weapon.SWORD);
         System.out.println(player.healthRemaining());
+        Player player1 = new Player("Melih", 50, Weapon.ARBALETE);
+        System.out.println(player1.healthRemaining());
     }
 }
